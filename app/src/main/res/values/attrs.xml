@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpeedometerView">
+        <attr name="centerCircleWidth" format="dimension"/>
+        <attr name="outCircleWidth" format="dimension"/>
+        <attr name="whiteScaleWidth" format="dimension"/>
+        <attr name="redScaleWidth" format="dimension"/>
+        <attr name="numberWidth" format="dimension"/>
+        <attr name="pointerWidth" format="dimension"/>
+        <attr name="outCircleColor" format="color"/>
+        <attr name="innerCircleColor" format="color"/>
+        <attr name="numberColor" format="color"/>
+        <attr name="normalScaleColor" format="color"/>
+        <attr name="multipleOfTenScaleColor" format="color"/>
+    </declare-styleable>
+</resources>

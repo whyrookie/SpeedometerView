@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:SpeedometerView="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.why.speedometerview.MainActivity">
+
+   <com.example.why.speedometerview.SpeedometerView
+       android:background="@android:color/black"
+       android:id="@+id/speedometer_view"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       SpeedometerView:outCircleWidth="5dp"
+       />
+</FrameLayout>
